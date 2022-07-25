@@ -1,4 +1,4 @@
-const express = require('express')
+const router = require('express').Router()
 
 const {
     getRecipes,
@@ -8,7 +8,7 @@ const {
     updateRecipe
 } = require('../controllers/recipeController')
 
-const router = express.Router()
+
 
 // GET all recipes
 router.get('/', getRecipes)
