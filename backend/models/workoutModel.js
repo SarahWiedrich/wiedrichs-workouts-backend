@@ -7,6 +7,16 @@ const workoutSchema = new Schema({
         type: String,
         required: true
     },
+    imgURL: {
+        type: String
+    },
+    desc: {
+        type: String,
+    },
+    steps: {
+        type: String,
+        required: true
+    }, 
     reps: {
         type: Number,
         required: true
@@ -17,5 +27,7 @@ const workoutSchema = new Schema({
     }
 }, { timestamps: true })
 
-module.exports = mongoose.model('Workout', workoutSchema)
+
+
+module.exports = mongoose.model('Workout', workoutSchema,)
 
