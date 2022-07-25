@@ -8,8 +8,6 @@ const {
     updateWorkout
 } = require('../controllers/workoutController')
 
-
-
 // GET all workouts
 router.get('/', getWorkouts)
 
