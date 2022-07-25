@@ -8,8 +8,6 @@ const {
     updateRecipe
 } = require('../controllers/recipeController')
 
-
-
 // GET all recipes
 router.get('/', getRecipes)
 
