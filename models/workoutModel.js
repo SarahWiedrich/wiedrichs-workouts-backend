@@ -7,24 +7,22 @@ const workoutSchema = new Schema({
         type: String,
         required: true
     },
+    desc: {
+        type: String
+    },
     imgURL: {
         type: String
     },
-    desc: {
-        type: String,
+    type: {
+        type: String
+    },
+    time: {
+        type: Number
     },
     steps: {
         type: String,
         required: true
     }, 
-    reps: {
-        type: Number,
-        required: true
-    },
-    weight: {
-        type: Number,
-        required: true
-    }
 }, { timestamps: true })
 
 
