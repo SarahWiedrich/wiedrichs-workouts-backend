@@ -27,14 +27,6 @@ const recipeSchema = new Schema({
         type: Number,
         required: true,
     },
-    glutenFree: {
-        type: Boolean,
-        required: false,
-    },
-    vegan: {
-        type: Boolean,
-        required: false,
-    },
     steps: {
         type: String,
         required: true
